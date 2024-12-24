@@ -1,0 +1,483 @@
+container {
+    width: 100vw; 
+    height: auto;
+}
+
+section {
+    position: relative; 
+}
+
+@font-face{
+    font-family: JosefinSans-variableFont;
+    src: url(../fonts/JosefinSans-VariableFont_wght.ttf);
+
+}
+
+@font-face{
+    font-family: Jura-VariableFont;
+    src: url(../fonts/Jura-VariableFont_wght.ttf);
+}
+
+.top-nav{
+    font-family: JosefinSans-VariableFont;
+    font-weight: 800;
+    font-size: 16px;
+}
+
+.rectangle {
+    width: 100vw;
+    height: 200px;
+    background: #FF93AE;
+    top: 890px;
+    left: 860px;
+}
+
+.wrapper{
+    width: 100vw;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.figure {
+    position: absolute;
+    left:  49.5%;
+    top: 50px;
+    transform: translateX(-50%);
+}
+
+
+.top-nav{
+    width: 680px;
+    height: 60px;
+    position: absolute;
+    left: 50%;
+    top: 30px;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+.top-nav ul li{
+    float: Right; 
+}
+
+a {
+display: block;
+color: white;
+text-decoration: none;
+padding: 14px 16px;
+float: left;
+}
+
+.top-nav-container {
+    width: 2100px;
+    height: 100px;
+    background-color: #FF93AE;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 2;
+}
+
+.top-nav a:hover{
+    background-color: #FD7196;
+}
+.rectangle{
+    width: vw;
+    height: 50px;
+    background-color: #ff93ae;
+    position: absolute;
+    top: 96%;
+    left: 0;
+}
+.About{
+    width: 100vw;
+    height: 100vh;
+    background-color: #FF93AE;
+    position: relative;
+}
+
+.home {
+    width: 100vw;
+    height: 100vh;
+    background:#FF93AE
+}
+
+
+.Creatia{
+    font-family: JosefinSans-variableFont;
+    font-size: 5em;
+    color: #EE3966;
+    position: absolute;
+    top: 890px;
+    left: 50.3%;
+    transform: translateX(-50%);
+}
+
+.Create{
+    font-family: Jura-VariableFont;
+    font-size: 24px;
+    color: #EE3966;
+    position: absolute;
+    top: 960px;
+    left: 50.3%;
+    transform: translateX(-50%);
+}
+
+.Poly1{
+    width: 100px;
+    height: 100px;
+    background: url("../images/Poly1.png");
+}
+
+.Info{
+    width: 100vw;
+    height: 100vh;
+    background-color: #FF93AE ;
+}
+
+.CREATIA2{
+    font-family: JosefinSans-variableFont;
+    font-size: 5em;
+    color: #EE3966;
+    position: absolute;
+    top: 250px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.AnimeDetour{
+    font-family: Jura-VariableFont;
+    font-size: 24px;
+    width: 600px;
+    height: 100px;
+    text-align: center;
+    color: #F7F7F7;
+    position: absolute;
+    top: 38%;
+    left: 50.3%;
+    transform: translateX(-50%);
+}
+
+.Event{
+    font-family: JosefinSans-VariableFont;
+    font-size:20px;
+    width: 600px;
+    height: 100px;
+    text-align: center;
+    color: #F7F7F7;
+    position: absolute;
+    top: 52%;
+    left: 50.3%;
+    transform: translateX(-50%);
+    z-index: 1;
+
+}
+
+.Txt{
+    font-family: JosefinSans-VariableFont;
+    font-size: 20px;
+    font-weight: 200;
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    color: #f7f7f7;
+    position: absolute;
+    top: 56%;
+    left: 50.3%;
+    transform: translateX(-50%);
+}
+
+.location {
+    font-family: JosefinSans-VariableFont;
+    font-size:20px;
+    width: 600px;
+    height: 100px;
+    text-align: center;
+    color: #F7F7F7;
+    position: absolute;
+    top: 66%;
+    left: 50.3%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+.street{
+    font-family: JosefinSans-VariableFont;
+    font-size: 20px;
+    font-weight: 200;
+    width: 250px;
+    height: 100px;
+    text-align: center;
+    color: #f7f7f7;
+    position: absolute;
+    top: 70%;
+    left: 50.3%;
+    transform: translateX(-50%);
+}
+
+.dot1{
+    width: 15px;
+    height: 15px;
+    top: 32%;
+    left: 50%;
+    position: absolute;
+    background-color:#F7F7F7;
+    border-radius: 50%;
+}
+
+.dot2{
+    width: 15px;
+    height: 15px;
+    top: 32%;
+    left: 46.9%;
+    position: absolute;
+    background-color:#F7F7F7;
+    border-radius: 50%;
+
+}
+
+.dot3{
+    width: 15px;
+    height: 15px;
+    top: 32%;
+    left: 53%;
+    position: absolute;
+    background-color: #F7F7F7;
+    border-radius: 50%;
+}
+
+.dot4{
+    width: 12px;
+    height: 12px;
+    top: 52%;
+    left: 46%;
+    position: absolute;
+    background-color: #F7F7F7;
+    border-radius: 50%;
+}
+
+.dot5{
+    width: 12px;
+    height: 12px;
+    top: 52%;
+    left: 54%;
+    position: absolute;
+    background-color: #F7F7F7;
+    border-radius: 50%;
+}
+
+.dot6{
+    width: 12px;
+    height: 12px;
+    top: 66.3%;
+    left: 54%;
+    position: absolute;
+    background-color: #F7F7F7;
+    border-radius: 50%;
+}
+
+.dot7{
+    width: 12px;
+    height: 12px;
+    top: 66.3%;
+    left: 46%;
+    position: absolute;
+    background-color: #F7F7F7;
+    border-radius: 50%;
+}
+
+.poly_left {
+    width: 483px;
+    height: auto;
+    position: absolute;
+    top: 15px;
+}
+
+.poly_right {
+    display: block;
+    width: 483px;
+    height: auto;
+    position: absolute;
+    left: 200px;
+    top: 0px;
+    margin-left: 1400px;
+   
+}
+
+.poly_right_top{
+    display: block;
+    width: 483px;
+    height: auto;
+    position: absolute;
+    left: 200px;
+    top: 730px;
+    left: 0px;
+}
+
+.poly_left_top{
+    display: block;
+    width: 483px;
+    height: auto;
+    position: absolute;
+    left: 200px;
+    top: 730px;
+    left: 1570px;
+}
+
+.poly_left_bottom{
+    display: block;
+    width: 483px;
+    height: auto;
+    position: absolute;
+    top: 72.5%;
+    left: -1.2%;
+}
+
+.poly_right_bottom{
+    display: block;
+    width: 483px;
+    height: auto;
+    position: absolute;
+    top: 72%;
+    left: 76.7%;
+}
+
+.tickets{
+    font-family: Jura-VariableFont;
+    font-size: 16px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    width: 200px;
+    height: 35px;
+    background-color:#4E83F5;
+    color: #f7f7f7;
+    border-radius: 5px;
+    top: 80%;
+    left: 50.3%;
+    position: absolute;
+    transform: translateX(-50%);
+}
+
+/* .bot-nav{
+    font-family: JosefinSans-VariableFont;
+    font-weight: 800;
+    font-size: 12px;
+}
+
+.bottom-nav-container{
+    width: 2100px;
+    height: 100px;
+    position: absolute;
+    top: 94%;
+    Left: 37%;
+    z-index: 2;
+} */
+
+/* .bot-nav ul li{
+    float: Right; 
+} */
+
+.credits{
+    width: 100vw;
+    height: 800px;
+    background-color: #FF93AE;
+}
+/* .CREATIA3{
+    font-family: JosefinSans-variableFont;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #EE3966;
+    position: absolute;
+    top: 93%;
+    left: 50%;
+    transform: translateX(-50%);
+} */
+
+ .sponsors{
+    font-family: JosefinSans-variableFont;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #f7f7f7;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.detour{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 92.2%;
+    left: 51%;
+}
+
+.crunchyroll{
+    width: 70px;
+    height: 80px;
+    position: absolute;
+    top: 92%;
+    left: 46%;
+}
+
+.insta{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 96%;
+    left: 46%;
+}
+
+.x{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 96%;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
+.discord{
+    width: 38px;
+    height: 38px;
+    position: absolute;
+    top: 95.9%;
+    left: 52.5%;
+}
+
+.copyright{
+    font-family: Jura-VariableFont;
+    font-size: 12px;
+    position: absolute;
+    color: #F7F7F7;
+    top: 98%;
+    left: 42%;
+    color: #F7F7F7;
+
+}
+
+.terms{
+    font-family: Jura-VariableFont;
+    font-size: 12px;
+    position: absolute;
+    color: #F7F7F7;
+    top: 98%;
+    left: 47.5%;
+    color: #F7F7F7;
+
+}
+
+.policy{
+    font-family: Jura-VariableFont;
+    font-size: 12px;
+    position: absolute;
+    color: #F7F7F7;
+    top: 98%;
+    left: 56%;
+    color: #F7F7F7;
+
+}
+
+/* JosefinSans-variableFont */

@@ -1,0 +1,823 @@
+container {
+    width: 100vw; 
+    height: auto;
+}
+
+section {
+    position: relative; 
+}
+
+@font-face{
+    font-family: JosefinSans-variableFont;
+    src: url(../fonts/JosefinSans-VariableFont_wght.ttf);
+
+}
+
+@font-face{
+    font-family: Jura-VariableFont;
+    src: url(../fonts/Jura-VariableFont_wght.ttf);
+}
+
+.top-nav{
+    font-family: JosefinSans-VariableFont;
+    font-weight: 800;
+    font-size: 16px;
+}
+
+.rectangle {
+    width: 100vw;
+    height: 200px;
+    background: #FF93AE;
+    top: 890px;
+    left: 860px;
+}
+
+.wrapper{
+    width: 100vw;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.wrapper-background {
+    width: 100%;
+    height: 100%;
+    background: url("../images/Pastel.jpg") no-repeat;
+    background-size: cover;
+    position: relative;
+    top: 70px;
+    left: 0px;
+}
+
+.figure {
+    position: absolute;
+    left:  49.5%;
+    top: 50px;
+    transform: translateX(-50%);
+}
+
+
+.top-nav{
+    width: 680px;
+    height: 60px;
+    position: absolute;
+    left: 50%;
+    top: 30px;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+.top-nav ul li{
+    float: Right; 
+}
+
+a {
+display: block;
+color: white;
+text-decoration: none;
+padding: 14px 16px;
+float: left;
+}
+
+.top-nav-container {
+    width: 2100px;
+    height: 100px;
+    background-color: #FF93AE;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 2;
+}
+
+.top-nav a:hover{
+    background-color: #FD7196;
+}
+.rectangle{
+    width: vw;
+    height: 50px;
+    background-color: #ff93ae;
+    position: absolute;
+    top: 96%;
+    left: 0;
+}
+.About{
+    width: 100vw;
+    height: 100vh;
+    background-color: #FF93AE;
+    position: relative;
+}
+
+.home {
+    width: 100vw;
+    height: 100vh;
+}
+
+.award{
+    width: 100vw;
+    height: 100vh;
+    background: #ff93ae;
+}
+
+.Creatia{
+    font-family: JosefinSans-variableFont;
+    font-size: 5em;
+    color: #EE3966;
+    position: absolute;
+    top: 890px;
+    left: 50.3%;
+    transform: translateX(-50%);
+}
+
+.Create{
+    font-family: Jura-VariableFont;
+    font-size: 24px;
+    color: #EE3966;
+    position: absolute;
+    top: 960px;
+    left: 50.3%;
+    transform: translateX(-50%);
+}
+
+.Poly1{
+    width: 100px;
+    height: 100px;
+    background: url("../images/Poly1.png");
+}
+
+.Info{
+    width: 100vw;
+    height: 100vh;
+    background-color: #FF93AE ;
+}
+
+.CREATIA2{
+    font-family: JosefinSans-variableFont;
+    font-size: 5em;
+    color: #EE3966;
+    position: absolute;
+    top: 250px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.AnimeDetour{
+    font-family: Jura-VariableFont;
+    font-size: 24px;
+    width: 600px;
+    height: 100px;
+    text-align: center;
+    color: #F7F7F7;
+    position: absolute;
+    top: 38%;
+    left: 50.3%;
+    transform: translateX(-50%);
+}
+
+.Event{
+    font-family: JosefinSans-VariableFont;
+    font-size:20px;
+    width: 600px;
+    height: 100px;
+    text-align: center;
+    color: #F7F7F7;
+    position: absolute;
+    top: 52%;
+    left: 50.3%;
+    transform: translateX(-50%);
+    z-index: 1;
+
+}
+
+.Txt{
+    font-family: JosefinSans-VariableFont;
+    font-size: 20px;
+    font-weight: 200;
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    color: #f7f7f7;
+    position: absolute;
+    top: 56%;
+    left: 50.3%;
+    transform: translateX(-50%);
+}
+
+.location {
+    font-family: JosefinSans-VariableFont;
+    font-size:20px;
+    width: 600px;
+    height: 100px;
+    text-align: center;
+    color: #F7F7F7;
+    position: absolute;
+    top: 66%;
+    left: 50.3%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+.street{
+    font-family: JosefinSans-VariableFont;
+    font-size: 20px;
+    font-weight: 200;
+    width: 250px;
+    height: 100px;
+    text-align: center;
+    color: #f7f7f7;
+    position: absolute;
+    top: 70%;
+    left: 50.3%;
+    transform: translateX(-50%);
+}
+
+.dot1{
+    width: 15px;
+    height: 15px;
+    top: 32%;
+    left: 50%;
+    position: absolute;
+    background-color:#F7F7F7;
+    border-radius: 50%;
+}
+
+.dot2{
+    width: 15px;
+    height: 15px;
+    top: 32%;
+    left: 46.9%;
+    position: absolute;
+    background-color:#F7F7F7;
+    border-radius: 50%;
+
+}
+
+.dot3{
+    width: 15px;
+    height: 15px;
+    top: 32%;
+    left: 53%;
+    position: absolute;
+    background-color: #F7F7F7;
+    border-radius: 50%;
+}
+
+.dot4{
+    width: 12px;
+    height: 12px;
+    top: 52%;
+    left: 46%;
+    position: absolute;
+    background-color: #F7F7F7;
+    border-radius: 50%;
+}
+
+.dot5{
+    width: 12px;
+    height: 12px;
+    top: 52%;
+    left: 54%;
+    position: absolute;
+    background-color: #F7F7F7;
+    border-radius: 50%;
+}
+
+.dot6{
+    width: 12px;
+    height: 12px;
+    top: 66.3%;
+    left: 54%;
+    position: absolute;
+    background-color: #F7F7F7;
+    border-radius: 50%;
+}
+
+.dot7{
+    width: 12px;
+    height: 12px;
+    top: 66.3%;
+    left: 46%;
+    position: absolute;
+    background-color: #F7F7F7;
+    border-radius: 50%;
+}
+
+.poly_left {
+    width: 483px;
+    height: auto;
+    position: absolute;
+    top: 10px;
+}
+
+.poly_right {
+    display: block;
+    width: 483px;
+    height: auto;
+    position: absolute;
+    left: 200px;
+    top: 0px;
+    margin-left: 1400px;
+   
+}
+
+.poly_right_top{
+    display: block;
+    width: 483px;
+    height: auto;
+    position: absolute;
+    left: 198px;
+    top: 750px;
+    left: 0px;
+}
+
+.poly_left_top{
+    display: block;
+    width: 483px;
+    height: auto;
+    position: absolute;
+    left: 200px;
+    top: 750px;
+    left: 1570px;
+}
+
+.poly_left_bottom{
+    display: block;
+    width: 483px;
+    height: auto;
+    position: absolute;
+    top: 71%;
+    left: -1.3%;
+}
+
+.poly_right_bottom{
+    display: block;
+    width: 483px;
+    height: auto;
+    position: absolute;
+    top: 72%;
+    left: 77.6%;
+}
+
+.tickets{
+    font-family: Jura-VariableFont;
+    font-size: 16px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    width: 200px;
+    height: 35px;
+    background-color:#4E83F5;
+    color: #f7f7f7;
+    border-radius: 5px;
+    top: 80%;
+    left: 50.3%;
+    position: absolute;
+    transform: translateX(-50%);
+}
+
+.attend{
+    font-family: JosefinSans-VariableFont;
+    font-size: 20px;
+    font-weight: 200;
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    color: #f7f7f7;
+    position: absolute;
+    top: 56%;
+    left: 50.3%;
+    transform: translateX(-50%);
+}
+
+.thanks{
+
+}
+
+
+.credits{
+    width: 100vw;
+    height: 800px;
+    background-color: #FF93AE;
+}
+
+.creditsp2{
+    width: 100vw;
+    height: 600px;
+    background-color: #FF93AE;
+}
+
+
+ .sponsors{
+    font-family: JosefinSans-variableFont;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #f7f7f7;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.sponsorsp2{
+    font-family: JosefinSans-variableFont;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #f7f7f7;
+    position: absolute;
+    top: 84.26%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.detour{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 92.2%;
+    left: 51%;
+}
+
+.detourp2{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 87.68%;
+    left: 51%;
+}
+
+
+.crunchyroll{
+    width: 70px;
+    height: 80px;
+    position: absolute;
+    top: 92%;
+    left: 46%;
+}
+
+.crunchyrollp2{
+    width: 70px;
+    height: 80px;
+    position: absolute;
+    top: 87.4%;
+    left: 46%;
+}
+
+.insta{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 96%;
+    left: 46%;
+}
+
+.x{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 96%;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
+.discord{
+    width: 38px;
+    height: 38px;
+    position: absolute;
+    top: 95.9%;
+    left: 52.5%;
+}
+
+.instap2{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 93.7%;
+    left: 46%;
+}
+
+.xp2{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 93.7%;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
+.discordp2{
+    width: 38px;
+    height: 38px;
+    position: absolute;
+    top: 93.5%;
+    left: 52.5%;
+}
+
+.copyright{
+    font-family: Jura-VariableFont;
+    font-size: 12px;
+    position: absolute;
+    color: #F7F7F7;
+    top: 98%;
+    left: 42%;
+    color: #F7F7F7;
+
+}
+
+.terms{
+    font-family: Jura-VariableFont;
+    font-size: 12px;
+    position: absolute;
+    color: #F7F7F7;
+    top: 98%;
+    left: 47.5%;
+    color: #F7F7F7;
+
+}
+
+.policy{
+    font-family: Jura-VariableFont;
+    font-size: 12px;
+    position: absolute;
+    color: #F7F7F7;
+    top: 98%;
+    left: 56%;
+    color: #F7F7F7;
+
+}
+
+
+.copyrightp2{
+    font-family: Jura-VariableFont;
+    font-size: 12px;
+    position: absolute;
+    color: #F7F7F7;
+    top: 96.86%;
+    left: 42%;
+    color: #F7F7F7;
+
+}
+
+.termsp2{
+    font-family: Jura-VariableFont;
+    font-size: 12px;
+    position: absolute;
+    color: #F7F7F7;
+    top: 96.86%;
+    left: 47.5%;
+    color: #F7F7F7;
+
+}
+
+.policyp2{
+    font-family: Jura-VariableFont;
+    font-size: 12px;
+    position: absolute;
+    color: #F7F7F7;
+    top: 96.86%;
+    left: 56%;
+    color: #F7F7F7;
+}
+
+.categories{
+    width: 400px;
+    height: 800px;
+    background: #FD7196;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    overflow: hidden;
+}
+
+.prizes{
+    width: 400px;
+    height: 800px;
+    background: #FD7196;
+    position: absolute;
+    top: 20%;
+    left: 60%;
+    overflow: hidden;
+
+}
+
+.cat{
+    font-family: JosefinSans-variableFont;
+    font-weight: 500;
+    font-size: 30px;
+    text-transform: uppercase;
+    position: absolute;
+    color: #F7F7F7;
+    top: 10%;
+    left: 25%
+}
+
+.tod1{
+    width: 15px;
+    height: 15px;
+    top: 10.5%;
+    left: 18%;
+    position: absolute;
+    background-color:#F7F7F7;
+    border-radius: 50%;
+}
+.tod2{
+    width: 15px;
+    height: 15px;
+    top: 10.5%;
+    left: 76.5%;
+    position: absolute;
+    background-color:#F7F7F7;
+    border-radius: 50%;
+}
+
+.tod3{
+    width: 15px;
+    height: 15px;
+    top: 10.5%;
+    left: 18%;
+    position: absolute;
+    background-color:#F7F7F7;
+    border-radius: 50%;
+}
+
+.tod4{
+    width: 15px;
+    height: 15px;
+    top: 10.5%;
+    left: 76.5%;
+    position: absolute;
+    background-color:#F7F7F7;
+    border-radius: 50%;
+}
+
+.pri{
+    font-family: JosefinSans-variableFont;
+    font-weight: 500;
+    font-size: 30px;
+    text-transform: uppercase;
+    position: absolute;
+    color: #F7F7F7;
+    top: 10%;
+    left: 25%
+
+}
+
+.one{
+    font-family: Jura-VariableFont;
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: capitalize;
+    text-align: center;
+    color: #F7F7F7;
+    position: absolute;
+    top: 25%;
+    left: 30%;
+}
+
+.two{
+    font-family: Jura-VariableFont;
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: capitalize;
+    text-align: center;
+    color: #F7F7F7;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+
+}
+
+.three{
+    font-family: Jura-VariableFont;
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: capitalize;
+    text-align: center;
+    color: #F7F7F7;
+    position: absolute;
+    top: 75%;
+    left: 30%;
+}
+
+.onep{
+    font-family: Jura-VariableFont;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 200;
+    text-transform: capitalize;
+    width: 350px;
+    height: 300px;
+    color: #F7F7F7;
+    position: absolute;
+    top: 30%;
+    left: 5.5%;
+   
+}
+
+.twop{
+    font-family: Jura-VariableFont;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 200;
+    text-transform: capitalize;
+    width: 350px;
+    height: 300px;
+    color: #F7F7F7;
+    position: absolute;
+    top: 55%;
+    left: 5.5%;
+
+}
+
+.threep{
+    font-family: Jura-VariableFont;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 200;
+    text-transform: capitalize;
+    width: 350px;
+    height: 300px;
+    color: #F7F7F7;
+    position: absolute;
+    top: 80%;
+    left: 5.5%;
+}
+
+
+.a{
+    font-family: Jura-VariableFont;
+    font-size: 30px;
+    font-weight: 500;
+    text-transform: capitalize;
+    text-align: center;
+    color: #F7F7F7;
+    position: absolute;
+    top: 25%;
+    left: 30%;
+
+}
+
+.d{
+    font-family: Jura-VariableFont;
+    font-size: 30px;
+    font-weight: 500;
+    text-transform: capitalize;
+    text-align: center;
+    color: #F7F7F7;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+
+}
+
+.w{
+    font-family: Jura-VariableFont;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: #F7F7F7;
+    position: absolute;
+    top: 75%;
+    left: 30%;
+
+}
+
+.ap{
+    font-family: Jura-VariableFont;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: #F7F7F7;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+}
+
+.dp{
+    font-family: Jura-VariableFont;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: #F7F7F7;
+    position: absolute;
+    top: 55%;
+    left: 10%;
+}
+
+.wp{
+    font-family: Jura-VariableFont;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: #F7F7F7;
+    position: absolute;
+    top: 80%;
+    left: 10%;
+
+}
+
+
+/* JosefinSans-variableFont
